@@ -1,0 +1,15 @@
+package com.clinica.clinica;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ClinicaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ClinicaApplication.class, args);
+
+		System.out.println("Clínica Médica - Sistema Iniciado com Sucesso!");
+	}
+
+}
